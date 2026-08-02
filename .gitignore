@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+mlruns.db
+mlruns/
+mlartifacts/
+best_run_id.txt
+champion_config.json
+.DS_Store

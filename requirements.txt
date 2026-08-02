@@ -1,0 +1,7 @@
+mlflow>=3.0
+pandas>=2.0
+requests>=2.31      # scripts/05_capture_screenshots.py
+# optional: interactive-UI screenshots
+# playwright>=1.40
+# optional: real LLM provider (GENAI_PROVIDER=openai)
+# openai>=1.40
