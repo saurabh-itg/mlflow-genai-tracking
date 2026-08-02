@@ -1,0 +1,15 @@
+{"id": "q01", "question": "How much did natural gas consumption fall after the MILP boiler scheduler was deployed?", "relevant_doc_id": "boiler-scheduling", "expected_facts": ["3 percent"]}
+{"id": "q02", "question": "What cadence does the boiler scheduling solver run on?", "relevant_doc_id": "boiler-scheduling", "expected_facts": ["fifteen minute"]}
+{"id": "q03", "question": "Which architecture is used for battery state of health estimation?", "relevant_doc_id": "battery-health", "expected_facts": ["convolutional", "LSTM"]}
+{"id": "q04", "question": "Why is the battery inference path written in Rust and compiled to WebAssembly?", "relevant_doc_id": "battery-health", "expected_facts": ["Jetson Nano", "Raspberry Pi"]}
+{"id": "q05", "question": "What does the SHA-256 incremental sync engine achieve during ingestion?", "relevant_doc_id": "rag-ingestion", "expected_facts": ["zero redundant ingestion"]}
+{"id": "q06", "question": "Why is hybrid sparse and dense retrieval used instead of dense alone?", "relevant_doc_id": "rag-ingestion", "expected_facts": ["part numbers", "acronyms"]}
+{"id": "q07", "question": "What VRAM footprint does the quantized TinyLlama fine-tune fit into?", "relevant_doc_id": "edge-finetuning", "expected_facts": ["6 GB"]}
+{"id": "q08", "question": "What token level accuracy did the TinyLlama fine-tune reach?", "relevant_doc_id": "edge-finetuning", "expected_facts": ["93.4"]}
+{"id": "q09", "question": "Which fairness metrics are tracked for resume shortlisting models?", "relevant_doc_id": "responsible-ai", "expected_facts": ["demographic parity", "equalised odds"]}
+{"id": "q10", "question": "Why are SHAP and LIME explanations attached to anomaly detection alerts?", "relevant_doc_id": "responsible-ai", "expected_facts": ["channels"]}
+{"id": "q11", "question": "What are the four MLflow pieces used for tracking GenAI applications?", "relevant_doc_id": "mlflow-tracking", "expected_facts": ["Tracing", "Prompt Registry", "Model Registry"]}
+{"id": "q12", "question": "Which three metric families should be logged for every GenAI configuration?", "relevant_doc_id": "mlflow-tracking", "expected_facts": ["quality", "cost", "latency"]}
+{"id": "q13", "question": "What triggers retraining of the battery health model?", "relevant_doc_id": "battery-health", "expected_facts": ["drift"]}
+{"id": "q14", "question": "What does Guardrails AI validate before an answer reaches a user?", "relevant_doc_id": "rag-ingestion", "expected_facts": ["schema", "grounding"]}
+{"id": "q15", "question": "What is the quarterly revenue of the plant in 2019?", "relevant_doc_id": "__none__", "expected_facts": []}
